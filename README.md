@@ -16,6 +16,13 @@ The speech to text API provides two endpoints, transcriptions and translations, 
   <a href="https://github.com/UBOS-tech">GitHub</a>
 </h3>
 
+<div align="center">
+ 
+[![flow](https://img.shields.io/badge/platform-Node--RED-red)](https://flows.nodered.org/node/node-red-contrib-speech-to-text-ubos)
+[![npm](https://img.shields.io/npm/v/node-red-contrib-speech-to-text-ubos)](https://www.npmjs.com/package/node-red-contrib-speech-to-text-ubos)
+ 
+</div>
+
 ### Quick Start
 
 Install with the built in <b>Node-RED Palette manager</b> or using npm:
@@ -25,7 +32,7 @@ npm install node-red-contrib-speech-to-text-ubos
 
 ## Setup
 
-When editing the nodes properties, to get your `OPENAI_API_KEY` log in to [ChatGPT](https://chat.openai.com/chat) and then visit https://platform.openai.com/account/api-keys click "+ Create new secret key" then copy and paste the "API key" into the nodes `API_KEY` property value.
+When editing the nodes properties, to get your `OPENAI_API_KEY` visit https://platform.openai.com/account/api-keys click "+ Create new secret key" then copy and paste the "API key" into the nodes `API_KEY` property value.
 
 To get your `Organization` visit https://platform.openai.com/account/org-settings then copy and paste the "OrganizationID" into the nodes `Organization` property value.
 
