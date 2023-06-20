@@ -73,6 +73,15 @@ To get your `Organization` visit https://platform.openai.com/account/org-setting
     - `msg.response_format`: The format of the transcript output, in one of these options: ***json***, ***text***, ***srt***, ***verbose_json***, or ***vtt***.
     - `msg.temperature`: The sampling temperature, between 0 and 1. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic. If set to 0, the model will use [log probability](https://en.wikipedia.org/wiki/Log_probability) to automatically increase the temperature until certain thresholds are hit.
 
+## Demo
+
+[Test video](https://ubos.tech/wp-content/uploads/2023/06/demo-speech-to-text.mp4)
+<div align="center">
+  
+  ![speech-to-text-demo](https://github.com/UBOS-tech/node-red-contrib-speech-to-text-ubos/assets/41735477/5f6a41d0-19ef-48e4-9244-7319756c46ee)
+  
+</div>
+
 ### Bugs reports and feature requests
 
 Please report any issues or feature requests at <a href="https://github.com/UBOS-tech/node-red-contrib-speech-to-text-ubos/issues">GitHub</a>.
